@@ -19,7 +19,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   const name = process.env.NAME || 'World';
-  res.send(`Frontend-crl Hello ${name}!`);
+  res.send(`Frontend-crl autodeploy Hello ${name}!`);
 });
 
 const port = parseInt(process.env.PORT) || 8080;
